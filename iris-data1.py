@@ -14,12 +14,12 @@ d = []
 
 
 with open('iris_data.csv','r') as csvfile:
-    plots = csv.reader(csvfile) #, delimiter=',')
+    plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
-        print(plots)
-#        if row[4] == "Iris-setosa":
-#            x.append(float(row[0]))
-#            y.append(float(row[1]))
+       
+        if row[4] == "Iris-setosa":
+            x.append(float(row[0]))
+            y.append(float(row[1]))
 #        if row[4] == "Iris-versicolor":
 #            a.append(float(row[0]))
 #            b.append(float(row[1]))
@@ -29,10 +29,10 @@ with open('iris_data.csv','r') as csvfile:
     
 
 #plt.scatter(x,y, marker="*", label='Iris-setosa', color=['red','yellow'])
-#plt.ylabel('Sepal Length')
-#plt.xlabel('Sepal Width')
+plt.ylabel('Sepal Length')
+plt.xlabel('Sepal Width')
 #plt.title('Fishers Iris Data')
-#plt.legend()
+plt.legend()
 
 #plt.scatter(a,b, marker="<", label='Iris-versicolor', color=['blue','orange'])
 #plt.xlabel('Sepal Length')
@@ -47,4 +47,4 @@ with open('iris_data.csv','r') as csvfile:
 #plt.legend()
 
 
-#plt.show()
+plt.show()
