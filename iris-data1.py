@@ -30,11 +30,10 @@ with open('iris_data.csv','r') as csvfile:
 #            d.append(float(row[1]))
     
 
-plt.scatter(x,y, marker="*")
-#plt.scatter(x,y, c=colors, alpha=0.5)
+plt.scatter(x,y, marker="*",label = 'Iris-setosa',color='red')
 plt.xlabel("Sepal Length")
 plt.ylabel("Sepal Width")
-#plt.title('Fishers Iris Data')
+plt.title('Fishers Iris Data')
 plt.legend()
 
 #plt.scatter(a,b, marker="<", label='Iris-versicolor', color=['blue','orange'])
