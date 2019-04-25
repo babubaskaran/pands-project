@@ -5,15 +5,13 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import csv
-N=50
+
 a = []
 b = []
 c = []
 d = []
 e = []
 f = []
-#colors = np.random.rand(N)
-#colors=[np.red.rand, np.yellow.rand]
 
 with open('iris_data.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
@@ -30,7 +28,8 @@ with open('iris_data.csv','r') as csvfile:
             f.append(float(row[1]))
     
 
-plt.scatter(a,b, marker="*",label = 'Iris-setosa',color='red')
+plt.scatter(a,b, marker="*",label = 'Iris-setosa',color=('red'))
+
 plt.xlabel("Sepal Length")
 plt.ylabel("Sepal Width")
 plt.title('Fishers Iris Data')
