@@ -1,9 +1,8 @@
-# Python Project 1
+# Fisher's Iris Dataset Project
 # Author Babu Baskaran
 # Date 24.4.19 
 # Plotting graph for Iris flowers
 import matplotlib.pyplot as plt
-import numpy as np
 import csv
 
 a = []
@@ -29,22 +28,21 @@ with open('irisdata.csv','r') as csvfile:
     
 
 plt.scatter(a,b, marker="*",color='red', label = 'Iris-setosa')
-
 plt.xlabel("Sepal Length")
 plt.ylabel("Sepal Width")
 plt.title('Fishers Iris Data')
 plt.legend()
 
+# Fishers Iris versicolor
 plt.scatter(c,d, marker=">",color='blue',label = 'Iris-versicolor')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
-plt.title('Fishers Iris versicolor')
 plt.legend()
 
+# Fishers Iris-virginica
 plt.scatter(e,f, marker="s",color='green',label = 'Iris-virginica')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
-plt.title('Fishers Iris-virginica')
 plt.legend()
 
 
