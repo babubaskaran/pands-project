@@ -3,15 +3,17 @@
 # Date 24.4.19 
 # Plotting graph for Iris flowers
 import matplotlib.pyplot as plt
+import numpy as np
 import csv
-
+N=50
 x = []
 y = []
 a = []
 b = []
 c = []
 d = []
-
+#colors = np.random.rand(N)
+#colors=[np.red.rand, np.yellow.rand]
 
 with open('iris_data.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
@@ -28,9 +30,10 @@ with open('iris_data.csv','r') as csvfile:
 #            d.append(float(row[1]))
     
 
-#plt.scatter(x,y, marker="*", label='Iris-setosa', color=['red','yellow'])
-plt.ylabel('Sepal Length')
-plt.xlabel('Sepal Width')
+plt.scatter(x,y, marker="*")
+#plt.scatter(x,y, c=colors, alpha=0.5)
+plt.xlabel("Sepal Length")
+plt.ylabel("Sepal Width")
 #plt.title('Fishers Iris Data')
 plt.legend()
 
