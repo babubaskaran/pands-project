@@ -13,7 +13,7 @@ d = []
 e = []
 f = []
 
-with open('iris_data.csv','r') as csvfile:
+with open('irisdata.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
        
@@ -28,20 +28,20 @@ with open('iris_data.csv','r') as csvfile:
             f.append(float(row[1]))
     
 
-plt.scatter(a,b, marker="*",label = 'Iris-setosa',color=('red'))
+plt.scatter(a,b, marker="*",color='red', label = 'Iris-setosa')
 
 plt.xlabel("Sepal Length")
 plt.ylabel("Sepal Width")
 plt.title('Fishers Iris Data')
 plt.legend()
 
-plt.scatter(c,d, marker=">",label = 'Iris-versicolor',color='blue')
+plt.scatter(c,d, marker=">",color='blue',label = 'Iris-versicolor')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
 plt.title('Fishers Iris versicolor')
 plt.legend()
 
-plt.scatter(e,f, marker="s",label = 'Iris-virginica',color='green')
+plt.scatter(e,f, marker="s",color='green',label = 'Iris-virginica')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
 plt.title('Fishers Iris-virginica')
