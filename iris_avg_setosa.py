@@ -15,8 +15,13 @@ count = 0
 # slenav = Seapal Length Average, swidav = Seapal Width Average, plenav = Petal Length Average, pwidav = Petal Width Average
 slen = 0
 swid = 0
+plen = 0
+pwid = 0
 slenav = 0
 swidav = 0
+plenav = 0
+pwidav = 0
+
 
 def avg(X,Y):
     avg = 0
@@ -31,18 +36,28 @@ with open('irisdata.csv','r') as csvfile:
         if row[4] == "Iris-setosa":
             a.append(float(row[0]))
             b.append(float(row[1]))
-            
+            c.append(float(row[0]))
+            d.append(float(row[1]))
+
             count += 1
             
             slen += float(row[0])
             swid += float(row[0])
-         
+            plen += float(row[0])
+            pwid += float(row[0])
+
 slenav = avg(slen,count)
-swidav = avg(slen,count)
+swidav = avg(swid,count)
+plenav = avg(plen,count)
+pwidav = avg(pwid,count)
+
 
 plt.scatter(slenav,swidav, marker="^", label='Iris-setosa', color=['red'])
-plt.xlabel("Sepal Length")
-plt.ylabel("Sepal Width")
-plt.title('Fishers Iris Data')
+plt.scatter(plenav,pwidav, marker="<", label='Iris-setosa', color=['green'])
+
+
+plt.xlabel("Average Length")
+plt.ylabel("Average Width")
+plt.title('Fishers Iris Setosa')
 plt.legend()
 plt.show()
