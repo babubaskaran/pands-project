@@ -1,4 +1,4 @@
-# Fisher's Iris Dataset Project
+# Fisher's Iris Dataset Project - Iris Sepal Plot
 # Author Babu Baskaran
 # Date 24.4.19 
 # Plotting graph for Iris flowers

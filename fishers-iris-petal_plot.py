@@ -1,10 +1,9 @@
-# Fisher's Iris Dataset Project
+# Fisher's Iris Dataset Project - Petal Plot
 # Author Babu Baskaran
 # Date 25.4.19 
 # Plotting graph for Iris flowers petals
 import matplotlib.pyplot as plt
 import csv
-import numpy as np
 
 
 a = []
