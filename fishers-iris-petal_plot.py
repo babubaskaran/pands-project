@@ -29,12 +29,7 @@ with open('irisdata.csv','r') as csvfile:
             f.append(float(row[3]))
     
 
-#plt.scatter(a,b, marker="*",color='orange', label = 'Iris-setosa')
-plt.scatter([a,b,]marker="*",color=['red','green']) 
-#matplotlib.pyplot.scatter([1,2,3],[4,5,6],color=['red','green','blue'])
-
-#3 colors
-
+plt.scatter(a,b, marker="*",color='orange', label = 'Iris-setosa')
 plt.xlabel("Petal Length")
 plt.ylabel("Petal Width")
 plt.title('Fishers Iris Data')
