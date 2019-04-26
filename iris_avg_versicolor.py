@@ -1,6 +1,6 @@
-# Fisher's Iris Dataset Project - Iris Average Setosa
+# Fisher's Iris Dataset Project - Iris Average Versicolor
 # Author Babu Baskaran
-# Date 25.4.19 
+# Date 26.4.19 
 # Plotting graph for Iris flowers
 import matplotlib.pyplot as plt
 import csv
@@ -39,7 +39,7 @@ with open('irisdata.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
        
-        if row[4] == "Iris-setosa":
+        if row[4] == "Iris-versicolor":
             a.append(float(row[0]))
             b.append(float(row[1]))
             c.append(float(row[2]))
@@ -58,12 +58,12 @@ plenav = avg(plen,count)
 pwidav = avg(pwid,count)
 
 
-plt.scatter(slenav,swidav, marker="^", label='Iris-setosa-Sepal', color=['red'])
-plt.scatter(plenav,pwidav, marker="<", label='Iris-setosa-Petal', color=['green'])
+plt.scatter(slenav,swidav, marker="^", label='Iris-versicolor-Sepal', color=['red'])
+plt.scatter(plenav,pwidav, marker="<", label='Iris-versicolor-Petal', color=['green'])
 
 
 plt.ylabel("Length")
 plt.xlabel("Width")
-plt.title('Fishers Iris Setosa')
+plt.title('Fishers Iris Versicolor')
 plt.legend()
 plt.show()
