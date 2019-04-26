@@ -21,3 +21,8 @@ swidav = 0
 plenav = 0
 pwidav = 0
 
+def avg(X,Y):
+    avg = 0
+    avg = X/Y
+
+    return round(avg,2)
