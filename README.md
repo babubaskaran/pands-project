@@ -18,7 +18,7 @@ The data set consists of 50 samples from each of three species of Iris (Iris set
 
 ## Process Details
 
-1. Research : Fisher's Iris Data and understanding hot to data analysis
+1. Research : Fisher's Iris Data and understanding how to data analysis
 2. Load Iris Data in Python
 3. Analysing the data and Visual Rrepresentation of Data
 
