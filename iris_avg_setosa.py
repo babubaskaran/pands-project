@@ -9,6 +9,7 @@ a = []
 b = []
 c = []
 d = []
+count = 0
 
 # slen = Seapal Length, swid = Seapal Width, plen = Petal Length, pwid = Petal Width
 # slenav = Seapal Length Average, swidav = Seapal Width Average, plenav = Petal Length Average, pwidav = Petal Width Average
@@ -26,3 +27,23 @@ def avg(X,Y):
     avg = X/Y
 
     return round(avg,2)
+
+with open('irisdata.csv','r') as csvfile:
+    plots = csv.reader(csvfile, delimiter=',')
+    for row in plots:
+       
+        if row[4] == "Iris-setosa":
+            a.append(float(row[0]))
+            b.append(float(row[1]))
+            c.append(float(row[2]))
+            d.append(float(row[3]))
+            
+            count += 1
+            
+            slen += float(row[0])
+            swid += float(row[0])
+            plen += float(row[0])
+            pwid += float(row[0])
+
+
+
