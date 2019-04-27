@@ -1,6 +1,6 @@
 # Fisher's Iris Dataset Project - Iris Average Setosa
 # Author Babu Baskaran
-# Date 26.4.19 
+# Date 27.4.19 
 # Plotting graph for Iris flowers
 # import matplotlib for graph
 import matplotlib.pyplot as plt
@@ -127,8 +127,8 @@ pwidy.append(avpwid3)
 plt.hist([olen,owid], bins=6, rwidth=0.70, label='overall average', color=['blue','red'])
 
 
-plt.xlabel("Length")
-plt.ylabel("Width")
+plt.xlabel("Average Width and Length")
+plt.ylabel("count")
 plt.title('Fishers Iris Summary Average')
 plt.legend()
 plt.show()
