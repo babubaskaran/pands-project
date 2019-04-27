@@ -49,6 +49,8 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 
 ## References
 
+* The Dataset https://archive.ics.uci.edu/ml/datasets/iris
+ 
 * https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 
 * https://pythonprogramming.net/matplotlib-python-3-basics-tutorial/
@@ -60,4 +62,7 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 * https://www.youtube.com/watch?v=snkkKrek7TU
 
 * https://matplotlib.org/api/markers_api.html
+
+* https://stackoverflow.com/questions/18498690/boxplot-with-pandas-groupby
+
 
