@@ -63,4 +63,18 @@ with open('irisdata.csv','r') as csvfile:
             plen3 += float(row[2])
             pwid3 += float(row[3])
 
+# finding average and assigning seapl and petal data
+avslen1 = aveg(slen1,count)
+avswid1 = aveg(swid1, count)
+avplen1 = aveg(plen1,count)
+avpwid1 = aveg(pwid1,count)
+
+olen.append(avslen1)
+olen.append(avplen1)
+owid.append(avswid1)
+owid.append(avpwid1)
+
+
+
+
             
