@@ -80,7 +80,7 @@ olen.append(avplen1)
 owid.append(avswid1)
 owid.append(avpwid1)
 
-# sapal and petal overall average added into overall sepal & petal x,y array - Iris Setosa
+# sapal and petal overall average added into overall sepal & petal into length & width array - Iris Setosa
 slenx.append(avslen1)
 swidx.append(avswid1)
 pleny.append(avplen1)
@@ -98,7 +98,7 @@ olen.append(avplen2)
 owid.append(avswid2)
 owid.append(avpwid2)
 
-# sapal and petal overall average added into overall sepal & petal x,y array - Versicolor
+# sapal and petal overall average added into overall sepal & petal into length & width array  - Versicolor
 slenx.append(avslen2)
 swidx.append(avswid2)
 pleny.append(avplen2)
@@ -116,7 +116,7 @@ olen.append(avplen3)
 owid.append(avswid3)
 owid.append(avpwid3)
 
-# sapal and petal overall average added into overall sepal & petal x,y array - Virginica
+# sapal and petal overall average added into overall sepal & petal into length & width array  - Virginica
 slenx.append(avslen3)
 swidx.append(avswid3)
 pleny.append(avplen3)
@@ -124,7 +124,7 @@ pwidy.append(avpwid3)
 
 
 # Generating Histogram using hist for summary of average of Setosa, Versicolor & Virginica
-plt.hist(olen,owid,  label='overall average', color=['blue','red'])
+plt.hist([olen,owid], bins=6, rwidth=0.70, label='overall average', color=['blue','red'])
 
 
 plt.xlabel("Length")

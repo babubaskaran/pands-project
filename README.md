@@ -46,3 +46,18 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 ## Python Program for various data analysis
 
 
+
+## References
+
+* https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+
+* https://pythonprogramming.net/matplotlib-python-3-basics-tutorial/
+
+* https://help.github.com/en/articles/basic-writing-and-formatting-syntax
+
+* https://www.youtube.com/watch?v=WbTOutpwPHs
+
+* https://www.youtube.com/watch?v=snkkKrek7TU
+
+* https://matplotlib.org/api/markers_api.html
+

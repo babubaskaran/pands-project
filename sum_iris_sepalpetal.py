@@ -123,8 +123,7 @@ pleny.append(avplen3)
 pwidy.append(avpwid3)
 
 
-plt.scatter(olen,owid, marker="s", label='overall average', color=['blue'])
-
+plt.scatter(olen,owid, marker="s", label='overall average', color=['b'], s=100)
 
 plt.xlabel("Length")
 plt.ylabel("Width")
