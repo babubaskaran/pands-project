@@ -74,7 +74,18 @@ olen.append(avplen1)
 owid.append(avswid1)
 owid.append(avpwid1)
 
+slenx.append(avslen1)
+swidx.append(avswid1)
+pleny.append(avplen1)
+pwidy.append(avpwid1)
+
+plt.scatter(olen,owid, marker="s", label='overall average', color=['pink'])
 
 
+plt.xlabel("Length")
+plt.ylabel("Width")
+plt.title('Fishers Iris Setosa Summary Average')
+plt.legend()
+plt.show()
 
             
