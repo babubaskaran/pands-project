@@ -123,7 +123,8 @@ pleny.append(avplen3)
 pwidy.append(avpwid3)
 
 
-plt.scatter(olen,owid, marker="s", label='overall average', color=['blue'])
+# Generating Histogram using hist for summary of average of Setosa, Versicolor & Virginica
+plt.hist(olen,owid,  label='overall average', color=['blue','red'])
 
 
 plt.xlabel("Length")
