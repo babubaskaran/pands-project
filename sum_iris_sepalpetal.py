@@ -79,7 +79,7 @@ swidx.append(avswid1)
 pleny.append(avplen1)
 pwidy.append(avpwid1)
 
-# finding average and assigning seapl and petal data - Iris Setosa
+# finding average and assigning seapl and petal data - Iris Versicolor
 avslen2 = aveg(slen2,count)
 avswid2 = aveg(swid2, count)
 avplen2 = aveg(plen2,count)
@@ -95,13 +95,29 @@ swidx.append(avswid2)
 pleny.append(avplen2)
 pwidy.append(avpwid2)
 
+# finding average and assigning seapl and petal data - Iris Virginica
+avslen3 = aveg(slen3,count)
+avswid3 = aveg(swid3, count)
+avplen3 = aveg(plen3,count)
+avpwid3 = aveg(pwid3,count)
 
-plt.scatter(olen,owid, marker="s", label='overall average', color=['pink'])
+olen.append(avslen3)
+olen.append(avplen3)
+owid.append(avswid3)
+owid.append(avpwid3)
+
+slenx.append(avslen3)
+swidx.append(avswid3)
+pleny.append(avplen3)
+pwidy.append(avpwid3)
+
+
+plt.scatter(olen,owid, marker="s", label='overall average', color=['blue'])
 
 
 plt.xlabel("Length")
 plt.ylabel("Width")
-plt.title('Fishers Iris Setosa Summary Average')
+plt.title('Fishers Iris Summary Average')
 plt.legend()
 plt.show()
 
