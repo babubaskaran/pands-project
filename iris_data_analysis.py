@@ -4,6 +4,7 @@
 # import numpy and pandas
 import numpy as np 
 import pandas as pd 
+#import csv
 
 from pandas.plotting import scatter_matrix
 
@@ -25,10 +26,9 @@ print(datafile.describe())
 
 datafile.plot(kind='box', subplots = True, layout = (1,4), sharex = False, sharey = False, title='Summary Box Plot')
 
-#fig, ax = plt.subplots()
-#ax = plt.subplots()
+fig, ax = plt.subplots()
 
-#datafile.boxplot(column='Sepal_Length', by='Species', ax=ax)
+datafile.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
 
 fig, ax = plt.subplots()
 datafile.boxplot(column=['Petal_Length'], by='Species', ax=ax)
@@ -36,11 +36,11 @@ datafile.boxplot(column=['Petal_Length'], by='Species', ax=ax)
 fig, ax = plt.subplots()
 datafile.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
 
-# fig, ax = plt.subplots()
-# datafile.boxplot(column=['Petal_Width'], by='Species', ax=ax)
+fig, ax = plt.subplots()
+datafile.boxplot(column=['Petal_Width'], by='Species', ax=ax)
 
 datafile.hist(bins=15)
 
-#scatter_matrix(datafile)
+scatter_matrix(datafile)
 
 plt.show()
