@@ -63,7 +63,7 @@ with open('irisdata.csv','r') as csvfile:
             plen3 += float(row[2])
             pwid3 += float(row[3])
 
-# finding average and assigning seapl and petal data
+# finding average and assigning seapl and petal data - Iris Setosa
 avslen1 = aveg(slen1,count)
 avswid1 = aveg(swid1, count)
 avplen1 = aveg(plen1,count)
@@ -78,6 +78,23 @@ slenx.append(avslen1)
 swidx.append(avswid1)
 pleny.append(avplen1)
 pwidy.append(avpwid1)
+
+# finding average and assigning seapl and petal data - Iris Setosa
+avslen2 = aveg(slen2,count)
+avswid2 = aveg(swid2, count)
+avplen2 = aveg(plen2,count)
+avpwid2 = aveg(pwid2,count)
+
+olen.append(avslen2)
+olen.append(avplen2)
+owid.append(avswid2)
+owid.append(avpwid2)
+
+slenx.append(avslen2)
+swidx.append(avswid2)
+pleny.append(avplen2)
+pwidy.append(avpwid2)
+
 
 plt.scatter(olen,owid, marker="s", label='overall average', color=['pink'])
 
