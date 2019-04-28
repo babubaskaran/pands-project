@@ -4,7 +4,7 @@
 # import numpy and pandas
 import numpy as np 
 import pandas as pd 
-#import csv
+import csv
 
 from pandas.plotting import scatter_matrix
 
@@ -13,34 +13,40 @@ import matplotlib.pyplot as plt
 
 dafile = "irisdata.csv"
 
+
 # defining headers to the file
-colms = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
 
-datafile = pd.read_csv(dafile, names = colms)
+# colms = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
 
-datafile.info()
 
-print(datafile.groupby('Species').size())
+df = pd.read_csv(dafile,names=['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species'])
 
-print(datafile.describe())
 
-datafile.plot(kind='box', subplots = True, layout = (1,4), sharex = False, sharey = False, title='Summary Box Plot')
+df.info()
 
-fig, ax = plt.subplots()
+print(df.groupby('Species').size())
 
-datafile.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
+print(df.describe())
 
-fig, ax = plt.subplots()
-datafile.boxplot(column=['Petal_Length'], by='Species', ax=ax)
+df.plot(kind='box', subplots = True, layout = (1,4), sharey = False, sharex = False, title='summary box plot' )
 
 fig, ax = plt.subplots()
-datafile.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
+
+df.boxplot(column=['Sepal_Length'], by='Species', ax=ax)
 
 fig, ax = plt.subplots()
-datafile.boxplot(column=['Petal_Width'], by='Species', ax=ax)
+df.boxplot(column=['Petal_Length'], by='Species', ax=ax)
 
-datafile.hist(bins=15)
+fig, ax = plt.subplots()
+df.boxplot(column=['Sepal_Width'], by='Species', ax=ax)
 
-scatter_matrix(datafile)
+fig, ax = plt.subplots()
+df.boxplot(column=['Petal_Width'], by='Species', ax=ax)
+
+df.hist(bins=15)
+
+plt.show()
+
+scatter_matrix(df)
 
 plt.show()
