@@ -67,7 +67,16 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 ![iris_avg_virginicapy](https://user-images.githubusercontent.com/48861486/56870288-2f275b80-6a05-11e9-8cdf-d072e9238edb.png)
 
 
-* sum_iris_sepalpetal.py - This script will calculate the average of sepal and petal data of all 3 Iris Setosa, Versicolor and Virginica flower and plotting the graph.
+* sum_iris_sepalpetal.py - This script will calculate the average of sepal and petal data of all 3 Iris Setosa, Versicolor and Virginica flower and plotting the scatter graph.
+
+![sum_iris_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56870369-4a469b00-6a06-11e9-9a70-821b912f082c.png)
+
+* Histogram Graphs to generate sets of data of each Flower and summary of everything.
+
+* sum_iris_histo_sepalpetal.py - This script will calculate the average of Sepal and Petal data of all 3 Iris Setosa, Versicolor and Virginica flower and generate plot summary Histogram.
+
+![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56870410-e2dd1b00-6a06-11e9-960f-dc611ede6081.png)
+
 
 
 
