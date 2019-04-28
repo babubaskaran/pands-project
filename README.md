@@ -118,8 +118,13 @@ print(df.describe())
 
 ![histogramofflowerlengthandwidth](https://user-images.githubusercontent.com/48861486/56870617-ddcd9b00-6a09-11e9-8381-fdc2644f8466.png)
 
+* Summary Scatter Matrix
 
+![scattermatrixchart](https://user-images.githubusercontent.com/48861486/56870629-0c4b7600-6a0a-11e9-80c4-93bf9b3beab4.png)
 
+* fishers_iris_analysis_menu.py - This script will run as a menu where user can select what they wanted to see.
+
+![menu](https://user-images.githubusercontent.com/48861486/56870669-aca19a80-6a0a-11e9-981e-bfeeb2e36d0f.JPG)
 
 
 
