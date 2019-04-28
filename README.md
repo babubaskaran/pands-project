@@ -116,7 +116,7 @@ print(df.describe())
 
 * Histogram with 15 containers to show the distribution of the flowers dimentions
 
-![histogramofflowerlengthandwidth](https://user-images.githubusercontent.com/48861486/56870617-ddcd9b00-6a09-11e9-8381-fdc2644f8466.png)
+![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56871037-26885280-6a10-11e9-90d6-2193c1c959c5.png)
 
 * Summary Scatter Matrix
 
