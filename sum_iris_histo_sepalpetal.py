@@ -124,7 +124,7 @@ pwidy.append(avpwid3)
 
 
 # Generating Histogram using hist for summary of average of Setosa, Versicolor & Virginica
-plt.hist([olen,owid], bins=6, rwidth=0.70, label='overall average', color=['blue','red'])
+plt.hist([olen,owid], bins=6, rwidth=0.70, label=['Sepal & Petal Width','Sepal & Petal Length'], color=['blue','red'])
 
 
 plt.xlabel("Average Width and Length")
