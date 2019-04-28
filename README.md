@@ -75,7 +75,8 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 
 * sum_iris_histo_sepalpetal.py - This script will calculate the average of Sepal and Petal data of all 3 Iris Setosa, Versicolor and Virginica flower and generate plot summary Histogram.
 
-![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56870410-e2dd1b00-6a06-11e9-960f-dc611ede6081.png)
+![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56871110-1cb31f00-6a11-11e9-82ce-089fe89e9f34.png)
+
 
 * Fisher's Iris Data Analysis using pandas and numpy library.
 
@@ -116,7 +117,8 @@ print(df.describe())
 
 * Histogram with 15 containers to show the distribution of the flowers dimentions
 
-![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56871037-26885280-6a10-11e9-90d6-2193c1c959c5.png)
+![histogramofflowerlengthandwidth](https://user-images.githubusercontent.com/48861486/56871089-dbbb0a80-6a10-11e9-8b1a-7163fad3789b.png)
+
 
 * Summary Scatter Matrix
 
