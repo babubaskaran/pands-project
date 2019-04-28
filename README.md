@@ -77,6 +77,31 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 
 ![sum_iris_histo_sepalpetalpy](https://user-images.githubusercontent.com/48861486/56870410-e2dd1b00-6a06-11e9-960f-dc611ede6081.png)
 
+* Fisher's Iris Data Analysis using pandas and numpy library.
+
+* Results and output of scripts explained below
+
+* Each columns names generated on first part of the script
+
+df.info()
+
+![datafileinformation](https://user-images.githubusercontent.com/48861486/56870483-d6a58d80-6a07-11e9-8819-3cf46b97fee4.JPG)
+
+
+* Number of rows of each type/species of flowers
+
+print(df.groupby('Species').size())
+
+![datafilesize](https://user-images.githubusercontent.com/48861486/56870501-3dc34200-6a08-11e9-9088-40281e1fa908.JPG)
+
+* Display the count, mean, standard divation, minimum and maximum (length & width) of sepal and petal
+
+print(df.describe())
+
+![datafile](https://user-images.githubusercontent.com/48861486/56870536-c17d2e80-6a08-11e9-9f4d-7198322be18e.JPG)
+
+
+
 
 
 
