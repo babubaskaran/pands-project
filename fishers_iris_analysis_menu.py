@@ -15,10 +15,10 @@ df = "irisdata.csv"
 
 # defining headers to the file
 
-# colms = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
+colms = ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
 
 
-df = pd.read_csv(df,names=['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species'])
+df = pd.read_csv(df,names=colms)
 
 def menu():
 
@@ -58,8 +58,10 @@ while True:
             fig, ax = plt.subplots()
             df.boxplot(column=['Petal_Width'], by='Species', ax=ax)
             plt.show()
+
         elif user_input == 6:
             df.hist(bins=15)
+            plt.show()
         elif user_input == 7:
             scatter_matrix(df)
             plt.show()
