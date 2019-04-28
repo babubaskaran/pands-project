@@ -27,20 +27,20 @@ with open('irisdata.csv','r') as csvfile:
             f.append(float(row[1]))
     
 
-plt.scatter(a,b, marker="*",color='red', label = 'Iris-setosa')
-plt.xlabel("Sepal Length")
-plt.ylabel("Sepal Width")
+plt.scatter(a,b, marker="*",label='Iris-setosa',color=['red'] )
+plt.ylabel("Sepal Length")
+plt.xlabel("Sepal Width")
 plt.title('Fishers Iris Data')
 plt.legend()
 
 # Fishers Iris versicolor
-plt.scatter(c,d, marker=">",color='blue',label = 'Iris-versicolor')
+plt.scatter(c,d, marker=">",color=['blue'],label = 'Iris-versicolor')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
 plt.legend()
 
 # Fishers Iris-virginica
-plt.scatter(e,f, marker="s",color='green',label = 'Iris-virginica')
+plt.scatter(e,f, marker="s",color=['orange'],label = 'Iris-virginica')
 plt.xlabel('Sepal Length')
 plt.ylabel('Sepal Width')
 plt.legend()
