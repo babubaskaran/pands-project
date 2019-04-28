@@ -135,6 +135,8 @@ The Min of the Sepal Length is 4.3 for all 3 flowers, Sepal width is 2.0, Petal 
 
 The Max of the Sepal Length is 7.9 for all 3 flowers, Sepal width is 4.4, Petal Length is 6.9 and Petal width is 2.5.
 
+Virginica is the largest iris while Setosa is the smallest
+
 
 
 
