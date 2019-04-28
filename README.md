@@ -126,6 +126,16 @@ print(df.describe())
 
 ![menu](https://user-images.githubusercontent.com/48861486/56870669-aca19a80-6a0a-11e9-981e-bfeeb2e36d0f.JPG)
 
+* Conclusion:
+
+From Fisher’s Iris Data Analysis, I found it important to be able to reference graphs of the data with the statistical analysis run from the application. The most useful variables were petal length and petal width.  The sepal length and sepal width weren’t useful due to they overlapped each other and proved difficult to differentiate between the different species.
+The Mean of the Sepal Length is 5.84 for all 3 flowers, Sepal width is 3.05, Petal Length is 3.75 and Petal width is 1.19.
+
+The Min of the Sepal Length is 4.3 for all 3 flowers, Sepal width is 2.0, Petal Length is 1.0 and Petal width is 0.1.
+
+The Max of the Sepal Length is 7.9 for all 3 flowers, Sepal width is 4.4, Petal Length is 6.9 and Petal width is 2.5.
+
+
 
 
 
