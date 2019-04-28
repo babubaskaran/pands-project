@@ -100,6 +100,24 @@ print(df.describe())
 
 ![datafile](https://user-images.githubusercontent.com/48861486/56870536-c17d2e80-6a08-11e9-9f4d-7198322be18e.JPG)
 
+* Box chart for mean, min and max and the outliers of each flower
+
+![summaryboxplot](https://user-images.githubusercontent.com/48861486/56870552-26388900-6a09-11e9-887c-e9f7b48e821c.png)
+
+* Box chart for each type Seapal Length, Petal Length, Sepal Width and Petal Width
+
+![boxplotsepallength](https://user-images.githubusercontent.com/48861486/56870586-91825b00-6a09-11e9-9306-f3b477df34a4.png)
+
+![boxplotpetallength](https://user-images.githubusercontent.com/48861486/56870590-9ba45980-6a09-11e9-8245-8b6398af436e.png)
+
+![boxplotsepalwidth](https://user-images.githubusercontent.com/48861486/56870596-a363fe00-6a09-11e9-8cac-744092630ec2.png)
+
+![boxplotpetalwidth](https://user-images.githubusercontent.com/48861486/56870600-a9f27580-6a09-11e9-99e5-7928102fd27b.png)
+
+* Histogram with 15 containers to show the distribution of the flowers dimentions
+
+![histogramofflowerlengthandwidth](https://user-images.githubusercontent.com/48861486/56870617-ddcd9b00-6a09-11e9-8381-fdc2644f8466.png)
+
 
 
 
