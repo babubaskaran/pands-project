@@ -16,7 +16,6 @@ f = []
 with open('irisdata.csv','r') as csvfile:
     plots = csv.reader(csvfile, delimiter=',')
     for row in plots:
-       
         if row[4] == "Iris-setosa":
             a.append(float(row[2]))
             b.append(float(row[3]))
@@ -28,7 +27,7 @@ with open('irisdata.csv','r') as csvfile:
             f.append(float(row[3]))
     
 
-plt.scatter(a,b, marker="*",color='orange', label = 'Iris-setosa')
+plt.scatter(a,b, marker="*",color=['orange'], label = 'Iris-setosa')
 plt.xlabel("Petal Length")
 plt.ylabel("Petal Width")
 plt.title('Fishers Iris Data')

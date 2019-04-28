@@ -41,9 +41,37 @@ The Project on Fisher's Iris Data Analysis using Python to identify varies types
 
 1. Make sure you have Python installed.
 2. Make sure you have installed matplotlib
+3. Make sure you have installed pandas
 
 
 ## Python Program for various data analysis
+
+* fishers_iris_sepal_plot.py - This script will open irisdata.csv file using the csv library and get values of Sepal length and width of all 3 Iris flowers and generate a scatter graph which will show differnce between each flower.
+
+![fishers_iris_sepal_plotpy](https://user-images.githubusercontent.com/48861486/56870048-069d6280-6a01-11e9-9617-352a367c911b.png)
+
+* fishers_iris_petal_plot.py - This script will open irisdata.csv file using the csv library and get values of Petal length and width of all 3 Iris flowers and generate a scatter graph which will show differnce between each flower.
+
+![fisher_iris_petal_plotpy](https://user-images.githubusercontent.com/48861486/56870141-aa3b4280-6a02-11e9-90b9-8bb86a7c3e14.png)
+
+* iris_avg_setosa.py - This script will calculate the average of sepal and petal data of Iris Setosa flower and plotting the scatter graph.
+
+![iris_avg_setosapy](https://user-images.githubusercontent.com/48861486/56870254-bfb16c00-6a04-11e9-8135-93e11219b2cd.png)
+
+* iris_avg_versicolor.py - This script will calculate the average of sepal and petal data of Iris Versicolor flower and plotting the scatter graph.
+
+![iris_avg_versicolor](https://user-images.githubusercontent.com/48861486/56870277-13bc5080-6a05-11e9-901c-18700d6f0df5.png)
+
+* iris_avg_virginica.py - This script will calculate the average of sepal and petal data of Iris Virginica flower and plotting the scatter graph.
+
+![iris_avg_virginicapy](https://user-images.githubusercontent.com/48861486/56870288-2f275b80-6a05-11e9-8cdf-d072e9238edb.png)
+
+
+* sum_iris_sepalpetal.py - This script will calculate the average of sepal and petal data of all 3 Iris Setosa, Versicolor and Virginica flower and plotting the graph.
+
+
+
+
 
 
 
